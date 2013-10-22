@@ -1,4 +1,11 @@
 get '/' do
-  # Look in app/views/index.erb
+  erb :index
+end
+
+
+post '/' do
+  @tweet = params[:tweet]
+  Twitter.update(@tweet)
+
   erb :index
 end
