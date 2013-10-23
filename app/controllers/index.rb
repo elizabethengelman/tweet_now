@@ -4,8 +4,7 @@ end
 
 
 post '/' do
-  @tweet = params[:tweet]
-  Twitter.update(@tweet)
-
+  Twitter.update(params[:tweet])
+ 
   erb :index
 end
