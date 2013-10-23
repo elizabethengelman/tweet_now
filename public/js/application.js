@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $(".tweet_form").submit(function(event){
-  	alert("submit was clicked!");
   	event.preventDefault();
     
     $(".tweet_text").prop('disabled', true);
