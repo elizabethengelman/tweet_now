@@ -1,0 +1,3 @@
+Tweet Now is an application that lets a single user (whose Twitter OAuth information was hardcoded into the app configuration) post a tweet using the Twitter API.   
+
+When the submit button is pressed, an AJAX request is triggered to disable the the form's elements.  A display message letting the user know that their tweet is being processed is displayed, as well as a message to let the user know if their tweet was posted successfully, or if there was an error.
